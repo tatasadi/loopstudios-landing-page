@@ -25,8 +25,9 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${alata.className} bg-white text-black flex min-h-screen flex-col items-center`}
+        className={`${alata.className} bg-white text-black flex min-h-screen flex-col items-center relative`}
       >
+        <div className="z-0 w-full h-[40.625rem] bg-[url('/mobile/image-hero.jpg')] absolute inset-0 bottom-auto bg-no-repeat bg-cover md:bg-[url('/desktop/image-hero.jpg')] max-w-[90rem] mx-auto bg-center"></div>
         <Header />
         {children}
         <Attribution />

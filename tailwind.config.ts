@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        alata: ["Alata", "sans-serif"],
+        "josefin-sans": ["Josefin Sans", "sans-serif"],
+      },
       colors: {
         'dark-gray': 'hsl(0, 0%, 55%)',
         'very-dark-gray': 'hsl(0, 0%, 41%)',
