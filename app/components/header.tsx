@@ -4,8 +4,8 @@ import Navbar from "./navbar"
 
 const Header = () => {
   return (
-    <header className="flex w-full max-w-[90rem] items-center justify-between px-6 py-10 lg:py-[4.25rem] lg:px-[10.31rem]">
-      <Image src={logo} alt="logo" className="block z-50 h-8 w-[12rem]" />
+    <header className="flex w-full max-w-[90rem] items-center justify-between px-6 py-10 lg:px-[10.31rem] lg:py-[4.25rem]">
+      <Image src={logo} alt="logo" className="z-50 block h-8 w-[12rem]" />
       <Navbar />
     </header>
   )

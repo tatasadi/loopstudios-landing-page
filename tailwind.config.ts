@@ -19,8 +19,8 @@ const config = {
     },
     extend: {
       colors: {
-        'dark-gray': 'hsl(0, 0%, 55%)',
-        'very-dark-gray': 'hsl(0, 0%, 41%)',
+        "dark-gray": "hsl(0, 0%, 55%)",
+        "very-dark-gray": "hsl(0, 0%, 41%)",
       },
       keyframes: {
         "accordion-down": {

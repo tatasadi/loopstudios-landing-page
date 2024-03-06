@@ -25,21 +25,21 @@ const Navbar = () => {
   return (
     <div className="flex w-full justify-end text-white">
       {isMenuOpen && (
-        <div className="bg-black absolute inset-0 z-30 md:hidden"></div>
+        <div className="absolute inset-0 z-30 bg-black md:hidden"></div>
       )}
       <div className="relative z-50 md:hidden">
         {isMenuOpen ? (
           <Image
             src={iconClose}
             alt="menu"
-            className="self-end cursor-pointer"
+            className="cursor-pointer self-end"
             onClick={() => setIsMenuOpen(false)}
           />
         ) : (
           <Image
             src={iconHamburger}
             alt="menu"
-            className="self-end cursor-pointer"
+            className="cursor-pointer self-end"
             onClick={() => setIsMenuOpen(true)}
           />
         )}
@@ -50,7 +50,12 @@ const Navbar = () => {
           isMenuOpen ? "fix" : "hidden md:block",
         )}
       >
-        <ul className={cn("flex flex-col md:flex-row md:items-end md:justify-end md:gap-8 w-full h-full justify-center gap-6 uppercase md:normal-case text-2xl leading-[1.5625rem] font-light md:font-medium md:text-[0.9375rem] md:leading-[1.5625rem]", isMobile ? josefinSans.className : alata.className)}>
+        <ul
+          className={cn(
+            "flex h-full w-full flex-col justify-center gap-6 text-2xl font-light uppercase leading-[1.5625rem] md:flex-row md:items-end md:justify-end md:gap-8 md:text-[0.9375rem] md:font-medium md:normal-case md:leading-[1.5625rem]",
+            isMobile ? josefinSans.className : alata.className,
+          )}
+        >
           <li>
             <a href="#" className="">
               About
@@ -76,7 +81,7 @@ const Navbar = () => {
               Support
             </a>
           </li>
-          </ul>
+        </ul>
       </nav>
     </div>
   )
