@@ -26,7 +26,11 @@ const OurCreationCard = ({
         {title}
       </h3>
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.00)0%,rgba(0,0,0,0.60)100%)] group-hover:bg-white/75"></div>
-      <Image src={desktopImage} alt={title} className="hidden md:block" />
+      <Image
+        src={desktopImage}
+        alt={title}
+        className="hidden h-[28.125rem] w-full object-cover md:block"
+      />
       <Image src={mobileImage} alt={title} className="md:hidden" />
     </div>
   )

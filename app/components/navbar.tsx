@@ -27,7 +27,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="absolute inset-0 z-30 bg-black md:hidden"></div>
       )}
-      <div className="relative z-50 md:hidden">
+      <div className="z-50 md:hidden">
         {isMenuOpen ? (
           <Image
             src={iconClose}
@@ -46,8 +46,8 @@ const Navbar = () => {
       </div>
       <nav
         className={cn(
-          "absolute inset-0 left-auto z-40 w-full p-6 md:relative md:left-0 md:items-center md:bg-transparent md:p-0",
-          isMenuOpen ? "fix" : "hidden md:block",
+          "inset-0 left-auto z-40 w-full p-6 md:relative md:left-0 md:items-center md:bg-transparent md:p-0",
+          isMenuOpen ? "fixed" : "hidden md:block",
         )}
       >
         <ul
