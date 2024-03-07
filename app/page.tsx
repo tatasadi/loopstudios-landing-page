@@ -24,10 +24,10 @@ import imageFisheyeDesktop from "@/public/desktop/image-fisheye.jpg"
 
 export default function Home() {
   return (
-    <main className="z-10 w-full max-w-[90rem] p-6 lg:px-[10.31rem]">
+    <main className="z-10 w-full max-w-[90rem] p-6 lg:pl-[10.31rem] lg:pr-[8.9rem]">
       <h1
         className={cn(
-          "mt-[6.19rem] max-w-[40.625rem] border-2 border-white p-6 text-[2.5rem] font-light uppercase leading-[1.2.375rem] text-white lg:mt-4 lg:p-10 lg:text-[4.5rem] lg:leading-[4.375rem]",
+          "mt-[6.19rem] max-w-[40.625rem] border-2 border-white p-6 text-[2.5rem] font-light uppercase leading-[1.2.375rem] text-white lg:mt-10 lg:p-10 lg:pb-[1.8rem] lg:text-[4.5rem] lg:leading-[4.375rem]",
           josefinSans.className,
         )}
       >
@@ -44,7 +44,7 @@ export default function Home() {
           alt="Interactive desktop"
           className="hidden md:block"
         />
-        <div className="mt-12 flex flex-col items-center gap-4 px-6 text-center md:absolute md:bottom-0 md:right-0 md:max-w-[33.8125rem] md:items-start md:gap-[1.56rem] md:bg-white md:pl-24 md:pr-0 md:pt-24 md:text-left">
+        <div className="mt-12 flex flex-col items-center gap-4 px-6 text-center md:absolute md:bottom-0 md:right-0 md:max-w-[34.1rem] md:items-start md:gap-[1.56rem] md:bg-white md:pl-24 md:pr-0 md:pt-24 md:text-left">
           <h2
             className={cn(
               josefinSans.className,
@@ -61,7 +61,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="mt-24 grid grid-cols-1 gap-6 pb-24 md:grid-cols-4 md:pb-[11.5rem]">
+      <section className="mt-24 grid grid-cols-1 gap-6 pb-24 md:grid-cols-4 md:pb-[10.2rem] lg:mt-[11.5rem]">
         <h2
           className={cn(
             "pb-6 text-center text-[2rem] font-light uppercase leading-8 md:col-span-3 md:place-self-start md:pb-[3.5rem] md:text-[3rem] md:leading-[3rem]",
@@ -94,6 +94,7 @@ export default function Home() {
           title="From up Above VR"
           desktopImage={imageFromAboveDesktop}
           mobileImage={imageFromAboveMobile}
+          className="lg:max-w-[10.25rem]"
         />
         <OurCreationCard
           title="Pocket Borealis"
@@ -112,7 +113,7 @@ export default function Home() {
         />
         <a
           href="#"
-          className="mt-2 cursor-pointer place-self-center border border-black px-10 py-3 text-sm uppercase leading-[0.875rem] tracking-[0.3125rem] hover:bg-black hover:text-white md:col-start-4 md:row-start-1 md:mb-[3.75rem] md:place-self-end"
+          className="mt-2 cursor-pointer place-self-center border border-black px-10 py-3 text-sm uppercase leading-[0.875rem] tracking-[0.3125rem] hover:bg-black hover:text-white md:col-start-4 md:row-start-1 md:mb-[3.75rem] md:mt-0 md:place-self-end lg:px-[2.5rem]"
         >
           See all
         </a>

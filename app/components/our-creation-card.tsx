@@ -7,16 +7,19 @@ const OurCreationCard = ({
   title,
   desktopImage,
   mobileImage,
+  className = "",
 }: {
   title: string
   desktopImage: StaticImageData
   mobileImage: StaticImageData
+  className?: string
 }) => {
   return (
     <div className="group relative cursor-pointer">
       <h3
         className={cn(
-          "absolute bottom-5 left-5 z-10 max-w-[8rem] text-2xl font-light uppercase leading-6 text-white",
+          "absolute bottom-5 left-5 z-10 max-w-[8rem] text-2xl font-light uppercase leading-6 text-white lg:bottom-8 lg:left-10 lg:max-w-[9rem] lg:text-[2rem] lg:leading-8",
+          className,
           josefinSans.className,
         )}
       >

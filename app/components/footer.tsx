@@ -7,11 +7,11 @@ import iconInstagram from "@/public/icon-instagram.svg"
 
 const Footer = () => {
   return (
-    <footer className="flex w-full flex-col bg-black px-[3.25rem] py-14 text-[0.9375rem] leading-[1.5625rem] text-white md:flex-row md:items-center md:justify-between md:px-[10.32rem] md:pb-8 md:pt-[2.75rem]">
-      <div className="flex flex-col items-center justify-center gap-8 md:items-start">
+    <footer className="flex w-full flex-col bg-black px-[3.25rem] py-14 text-[0.9375rem] leading-[1.5625rem] text-white md:flex-row md:items-center md:justify-between md:pb-8 md:pt-[2.75rem] lg:pl-[10.31rem] lg:pr-[9.25rem]">
+      <div className="flex flex-col items-center justify-center gap-8 md:items-start lg:gap-6">
         <Image src={Logo} alt="Loopstudios" className="h-6 w-[9rem]" />
         <div>
-          <ul className="flex flex-col items-center justify-center gap-4 md:flex-row">
+          <ul className="flex flex-col items-center justify-center gap-4 md:flex-row lg:gap-8">
             <li>
               <a href="#" className="nav-link">
                 About
