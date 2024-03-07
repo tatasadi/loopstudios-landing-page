@@ -35,6 +35,6 @@ export default function Attribution() {
           Source Code
         </a>
       </div>
-    </footer>
+    </div>
   )
 }
