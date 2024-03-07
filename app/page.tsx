@@ -27,7 +27,7 @@ export default function Home() {
     <main className="z-10 w-full max-w-[90rem] p-6 lg:pl-[10.31rem] lg:pr-[8.9rem]">
       <h1
         className={cn(
-          "mt-[6.19rem] max-w-[40.625rem] border-2 border-white p-6 text-[2.5rem] font-light uppercase leading-[1.2.375rem] text-white lg:mt-10 lg:p-10 lg:pb-[1.8rem] lg:text-[4.5rem] lg:leading-[4.375rem]",
+          "mt-[6.19rem] max-w-[40.625rem] border-2 border-white p-6 text-[2.5rem] font-light uppercase leading-[2.375rem] text-white lg:mt-10 lg:p-10 lg:pb-[1.8rem] lg:text-[4.5rem] lg:leading-[4.375rem]",
           josefinSans.className,
         )}
       >
