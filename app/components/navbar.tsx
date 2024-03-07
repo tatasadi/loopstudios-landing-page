@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
       <nav
         className={cn(
-          "absolute inset-0 left-auto z-40 w-full p-6 md:relative md:left-0 md:items-center md:bg-transparent md:py-[1.32rem] md:pr-10",
+          "absolute inset-0 left-auto z-40 w-full p-6 md:relative md:left-0 md:items-center md:bg-transparent md:p-0",
           isMenuOpen ? "fix" : "hidden md:block",
         )}
       >
@@ -57,27 +57,27 @@ const Navbar = () => {
           )}
         >
           <li>
-            <a href="#" className="">
+            <a href="#" className="nav-link">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="">
+            <a href="#" className="nav-link">
               Careers
             </a>
           </li>
           <li>
-            <a href="#" className="">
+            <a href="#" className="nav-link">
               Events
             </a>
           </li>
           <li>
-            <a href="#" className="">
+            <a href="#" className="nav-link">
               Products
             </a>
           </li>
           <li>
-            <a href="#" className="">
+            <a href="#" className="nav-link">
               Support
             </a>
           </li>

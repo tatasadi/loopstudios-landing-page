@@ -18,4 +18,12 @@
   .footer-link {
     @apply cursor-pointer underline;
   }
+
+  .social-icon {
+    @apply cursor-pointer border-b-2 border-transparent pb-2 hover:border-white;
+  }
+
+  .nav-link {
+    @apply relative after:absolute after:-bottom-2 after:left-1/4 after:block after:h-[0.125rem] after:w-1/2 after:bg-white after:opacity-0 after:transition-opacity after:duration-300 after:ease-in-out after:content-[''] hover:after:opacity-100;
+  }
 }
