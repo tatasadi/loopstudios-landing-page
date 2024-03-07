@@ -1,6 +1,6 @@
 export default function Attribution() {
   return (
-    <footer className="mt-auto flex flex-col text-center text-sm text-white opacity-50 sm:flex-row sm:gap-1 lg:absolute lg:bottom-0">
+    <div className="mt-auto flex flex-col text-center text-sm text-white opacity-50 sm:flex-row sm:gap-1 lg:absolute lg:bottom-0">
       <div>
         Challenge by{" "}
         <a
