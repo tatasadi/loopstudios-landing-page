@@ -56,7 +56,7 @@ Mobile Navbar:
 
 ### Implementation time
 
-This challenge was completed over a span of x hours.
+This challenge was completed over a span of 4 hours.
 
 ## Author
 
